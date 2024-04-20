@@ -1,0 +1,33 @@
+body{
+  background:  linear-gradient(rgba(214, 24, 135, 0.753), rgba(219, 18, 18, 0.664)) ;
+}
+table{
+    background-image: url(24.png);
+    margin-left:auto;
+    margin-top: 20rem;
+    margin-bottom: auto;
+    margin-right:auto;
+    width: 800px;
+    height:400px;
+    border-radius:60px;
+    position: center top !important;
+  }
+  
+  th{
+ 
+    color: antiquewhite;
+    padding-top: 13px;
+    border-radius: 21px;
+    font-weight: 600;
+    font-size: x-large ;
+    text-transform: uppercase;
+    
+    }
+    
+  input {
+      border-radius:6px;
+      width: 300px;
+      height:30px;
+      
+    }
+  

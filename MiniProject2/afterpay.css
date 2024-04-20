@@ -1,0 +1,18 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    margin-top: 250px;
+    text-transform: uppercase;
+}
+#bttn{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+#bttn2{
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 5%;
+}

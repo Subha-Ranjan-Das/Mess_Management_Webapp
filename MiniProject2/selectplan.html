@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Select Plan</title>
+    <link rel="stylesheet" href="selectplan.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<style>
+#bttn{
+  margin-left: 20em;
+}
+
+
+</style>
+</head>
+<body >
+
+<h1 class="top"> MESS MANAGEMENT SYSTEM</h1>
+
+<div>
+    <h2>Mess Payment</h2>
+</div>
+<table style="background-color: rgb(242, 241, 247); padding: left 20px;">
+    <th>
+<form action="pay.php" method="post">
+   user id: <input type="text" class="change" placeholder="userid" name="userid" />
+
+    <br>
+    <br>
+
+    <label for="plan" class="chose"> STUDENT'S MESS PLAN:- </label><br>
+
+
+    <select name="plan" id="plan" class="chose">
+        <option value="plan1">Rs. 3600 (30 Breakfast and 30 Lunches)</option>
+        <option value="plan2">Rs. 3000 (15 Breakfast and 30 Lunches)</option>
+    </select>
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <input type="submit" id="bttn" class=" btn btn-info" />
+</form>
+</th>
+</table>
+</body>
+</html>
